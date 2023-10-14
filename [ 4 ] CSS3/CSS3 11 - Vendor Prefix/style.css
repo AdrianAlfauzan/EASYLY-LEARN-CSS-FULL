@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+}

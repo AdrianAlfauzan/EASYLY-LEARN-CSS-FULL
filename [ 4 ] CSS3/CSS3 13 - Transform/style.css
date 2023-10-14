@@ -1,0 +1,82 @@
+body {
+    height: 2000px;
+}
+
+div {
+    margin-top: 500px;
+}
+
+.scale {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    transition: 1s;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 200px;
+}
+
+.scale:hover {
+    transform: scaleX(1.5) scaleY(2);
+}
+
+.rotate {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 200px;
+    transition: 1s;
+}
+
+.rotate:hover {
+    transform: rotateX(100deg) rotateY(30deg);
+}
+
+.skew {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 200px;
+    transition: 1s;
+}
+
+.skew:hover {
+    transform: skewY(30deg);
+}
+
+.translate {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 200px;
+    transition: 1s;
+}
+
+.translate:hover {
+    transform: translate(50px, 100px);
+}
+
+.combination {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 200px;
+    transition: 1s;
+}
+
+.combination:hover {
+    transform: scale(2.5) rotateX(60deg) translateY(60px) skew(20deg);
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}

@@ -1,0 +1,85 @@
+1. Animation
+Value yang dapat kita kasih ke Animation :
+1. [name] --> nama dari animasi yang harus sama dengan keyframes yang kita buat
+
+2. [duration] --> durasi dari animasi (sama seperti transisi)
+   --> 1s,1ms,2s,2ms
+   
+3. [timing-fucntion] --> sama seperti transisi
+    --> ease,ease-in,ease-in-out,ease-out
+    --> steps(angka)
+3. [delay] --> sama seperti transisi
+
+4. [iteration-count] :
+<angka> | infinite 
+kita bisa kasih angka mau berapa kali diulang
+atau mau ulang terus-menerus menggunakan infinite
+
+5.[direction] :
+ normal | reverse | alternate | alternate-reverse
+
+ normal --> seperti biasa
+ reverse --> dia akan memulai dari akhir ke awal
+ alternate --> dia akan mengulang sesuai angka yang ada
+ alternate-reverse --> dia akan memulai dari akhir ke awal
+ dan akan mengulang sesuai angka yang ada
+
+6. [fill-mode] :
+none | forwards | backwards | both
+dia akan berhenti di keadaan akhirnya.
+
+7. [play-state]
+running | paused
+
+
+sintaks animation :
+    shorthand : 
+    animation: animasiKotak1 2s ease infinite;
+
+    manual hand
+    animation-name: animasiKotak1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+
+sintaks keyframes:
+@keyframes [Nama Animasi yang kita mau] {
+    from{
+        [properti-css]
+    }
+    to{
+        [properti-css]
+    }
+}
+
+bisa juga memakai %:
+@keyframes [Nama Animasi yang kita mau] {
+    0%{
+        [properti-css]
+    }
+    100%{
+        [properti-css]
+    }
+}
+
+contoh : 
+animation: animasiKotak1 2s ease;
+@keyframes animasiKotak1 {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 50px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+
+
+

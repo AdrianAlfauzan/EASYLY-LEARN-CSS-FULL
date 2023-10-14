@@ -1,0 +1,7 @@
+/* img {
+    display: none; #gambar akan hilang
+} */
+
+.navigasi li{
+    display: inline;
+}

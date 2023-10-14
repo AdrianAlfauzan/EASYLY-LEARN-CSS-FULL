@@ -1,0 +1,13 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 50px auto;
+    box-shadow: 0 30px 10px -20px red;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+div:hover {
+    box-shadow: 0 80px 10px -40px red;
+}

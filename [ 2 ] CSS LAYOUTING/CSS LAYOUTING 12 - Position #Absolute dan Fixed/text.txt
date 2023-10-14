@@ -1,0 +1,25 @@
+# POSITION ABSOLUTE :
+
+absolute : 
+- Ketika kita menggerakkan elemen dengan posisi absolute
+(menggunakan properti top,left,bottom dan right),ruang 
+yang ditempati oleh elemen tersebut dianggap tidak ada.
+
+- Ketika kita menggerakkan elemen dengan posisi absolute, elemen tersebut
+akan bergerak relatif terhadap posisi dari elemen parent-nya.
+Jadi,posisinya akan relative terhadap elemen parentnya/pembungkusnya 
+selama elemen parentnya/pembungkusnya memiliki posisi yang juga non-static.
+-jika kita memberi properti top: 0; dan left: 0;
+maka, elemen akan berada di ujung kiri atas dari elemen parentnya/pembungkusnya.
+
+# POSITION FIXED
+fixed : 
+perilaku pertama dari elemen fixed adalah ketika kita menggerakkan
+elemen tersebut dengan (top,left,bottom dan right) maka dia akan selalu 
+bergerak relative terhadap windows browsernya. 
+jadi, dia tidak akan memperdulikan elemen parentnya/pembungkusnya
+meskipun parentnya/pembungkusnya non-static.
+
+hal yang menarik dari POSITION FIXED adalah :
+ketika browser di scroll,maka dia akan terkunci di posisi itu.
+ini berguna untuk navbar website atau footer website.

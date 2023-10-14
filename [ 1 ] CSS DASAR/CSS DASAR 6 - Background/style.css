@@ -1,0 +1,6 @@
+body {
+    background-color: blue;
+    background-image: url(images/marvel.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}

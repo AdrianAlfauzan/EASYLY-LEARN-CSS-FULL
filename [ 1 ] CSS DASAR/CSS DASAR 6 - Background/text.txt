@@ -1,0 +1,7 @@
+Background
+
+1. background-color : mengatur warna pada background
+2. background-image : mengatur gambar yang akan digunakan pada background
+3. background-position : mengatur posisi gambar pada background
+4. background-repeat : mengatur jenis pengulangan gambar pada background
+

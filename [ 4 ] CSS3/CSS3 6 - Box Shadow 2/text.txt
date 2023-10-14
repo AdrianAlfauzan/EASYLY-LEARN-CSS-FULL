@@ -1,0 +1,51 @@
+# Box-Shadow adalah properti CSS3 yang berfungsi untuk 
+memberikan bayangan pada elemen yang kita buat.
+
+Box-Shadow, value nya ada 4 parameter :
+1. <x-offset> --> untuk mengatur jarak bayangan pada sumbu horizontal
+ini nilainya numerik(berdasarkan posisi) 
+jika di kasih 10px maka dia akan bergerak ke kanan 10px
+jika di kasih -10px maka dia akan bergerak ke kiri -10px
+
+2. <y-offset> --> untuk mengatur jarak bayangan pada sumbu vertikal
+jika di kasih 10px maka dia akan bergerak dari bawah 10px
+jika di kasih -10px maka dia akan bergerak dari atas -10px
+
+3. <blur> --> seberapa besar blur yang ingin kita kasih
+*NOTE --> Blur tidak dapat dikasih minus.
+
+4. <color> untuk memberi warna apa bayangan yang akan di beri. 
+
+contoh :
+box-shadow: -5px 5px 5px blue;
+-5px (x-offset) --> akan dimulai dari kiri jika (minus), jika (plus) akan dimulai dari kanan
+5px (y-offset) --> akan dimulai dari bawah jika (plus), jika (minus) akan dimulai dari atas
+5px (blur) -- yang terakhir adalah blur.
+
+
+[+] ada lagi 2 value optional :
+1. <inset> --> Membuat bayangan berada di dalam kotaknya
+semakin besar blurnya, blur nya akan semakin kedalam kota jika memakai (inset)
+contoh : 
+box-shadow: inset 0 0 15px 5px rgba(0, 0, 0, .5);
+inset --> bayangannya akan berada di dalam.
+0 --> (x-offset)
+0 --> (y-offset)
+15px --> (blur)
+5px --> (spread)
+
+2. <spread> --> Size atau ukuran bayangannya.
+dia dapat menggunakan nilai minus
+contoh : -5px dll
+box-shadow: -5px 5px 10px 5px rgba(0, 0, 255, 0.466);
+-5px --> (x-offset)
+5px --> (y-offset)
+10px --> (blurnya)
+5px --> (spreadnya)
+
+
+[+] Multiple Box-Shadow :
+bertujuan membuat 2 bayangan.
+contoh : 
+box-shadow: 5px 5px 5px blue, -5px -5px 5px red;
+jangan lupa pakai tanda koma (,)

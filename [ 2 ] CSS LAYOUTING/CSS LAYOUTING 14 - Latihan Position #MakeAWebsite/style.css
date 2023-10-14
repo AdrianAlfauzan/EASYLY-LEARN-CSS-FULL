@@ -1,0 +1,143 @@
+body {
+    font: 16px/20px arial, sans-serif;
+    /* 16px = ukuran font standardnya */
+    /* 20px = line height nya; */
+    /* hurufnya = arial dan sans-serif*/
+    background-color: #eaeaae;
+    color: #333;
+    background-image: url(images/naruto.jpeg);
+    background-size: cover;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: lightblue;
+    border-bottom: 3px solid salmon;
+    z-index: 9999;
+}
+
+.container {
+    width: 1100px;
+    margin: 80px auto;
+    background-color: white;
+    border: 10px solid red;
+    position: relative;
+}
+
+.twitter {
+    width: 150px;
+    height: 150px;
+    background-image: url(images/download.png);
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    background-position: -40px -20px;
+    right: 0;
+}
+
+.header {
+    padding: 20px;
+}
+
+.judul {
+    font-size: 40px;
+}
+
+ul {
+    margin-left: 400px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    font-size: 10px;
+    color: rgb(251, 255, 38);
+}
+
+.hero {
+    height: 600px;
+    background-image: url(images/marvel.jpeg);
+    background-size: 100%;
+    background-position: 50% 60%;
+    border: 3px solid white;
+}
+
+.main {
+    background-color: greenyellow;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main .penulis {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.penulis a:hover {
+    font-size: 20px;
+    color: rgb(199, 48, 199);
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.footer {
+    padding-bottom: 10px;
+}
+
+.copy {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.center {
+    width: 400px;
+    box-sizing: border-box;
+    background-color: rgb(210, 39, 253);
+    float: left;
+}
+
+.center img {
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    padding: 10px;
+    width: 300px;
+    background-color: pink;
+    float: left;
+}
+
+.sidebar h2 {
+    font-size: 16px;
+    font-family: georgia;
+}
+
+.sidebar img {
+    width: 95px;
+    background-size: cover;
+    background-position: 0 -30px;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+p {
+    color: blue;
+}
+
+.active:active {
+    font-size: 20px;
+    color: red;
+}

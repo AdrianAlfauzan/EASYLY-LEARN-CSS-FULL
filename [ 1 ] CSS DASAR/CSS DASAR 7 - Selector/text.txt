@@ -1,0 +1,15 @@
+Selector adalah digunakan CSS untuk mengenali 
+sebuah elemen HTML yang akan diberi style
+
+beberapa yang dapat digunakan di selector 
+1. Elemen HTML  (selectors)
+2. id : 
+- sebuah elemen HTML hanya boleh memiliki 1 id
+- setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut
+- dapat digunakan sebagai penanda halaman untuk link
+- digunakan juga untuk javascript
+- SEBAIKNYA TIDAK DIGUNAKAN UNTUK CSS (lebih baik gunakan class)
+
+
+3. class
+4. complex selector

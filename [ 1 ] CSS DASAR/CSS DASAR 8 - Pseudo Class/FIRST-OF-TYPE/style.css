@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* jadi,tolong carikan paragraf yang paling pertama,lalu warnai.*/
+
+p:first-of-type {
+    color: rgb(245, 51, 245);
+}

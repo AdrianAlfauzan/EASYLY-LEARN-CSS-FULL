@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(36, 32, 32);
+    font-family: arial;
+    color: yellow;
+}
+
+h1,
+h2 {
+    color: greenyellow;
+}
+
+/* jadi : ul yang ada di dalam li dan li yang ada di dalam a */
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: rgb(75, 211, 249);
+}
+
+/* jadi : CSS tolong cari id dengan nama p1 */
+/* menggunakan (#) */
+#p1 {
+    color: rgb(253, 52, 199);
+}
+
+/* jadi : CSS tolong cari class dengan nama p2 */
+/* menggunakan (.) */
+.p2 {
+    color: rgb(253, 52, 199);
+}
+
+.cetaktebal {
+    font-weight: bold;
+}
+
+
+/* jadi : CSS tolong cari saya paragraf,tapi yang memiliki class cetaktebal */
+p .cetaktebal {
+    font-weight: bold;
+}

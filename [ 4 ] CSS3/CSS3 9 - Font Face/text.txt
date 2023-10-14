@@ -1,0 +1,18 @@
+font face berfungsi untuk mengelola font.
+
+cara pakai :
+font-family : "Arial Narrow", arial, sans-serif;
+
+ini artinya : kita memerintahkan kepada CSS untuk mencarikan font yang bernama 
+"Arial Narrow" di dalam sistem operasi dari user/client.
+Setelah itu CSS akan mencari,jika dia (Arial Narrow) tidak ada,maka dia
+akan mencari font setelahnya.
+
+sans-serif --> merupakan kategori dari font.
+
+PERLU DI INGAT! 
+FONT HARUS ADA DI SISTEM OPERASI CLIENT/USER.
+
+Cara alternatif :
+menggunakan Google Fonts
+http://www.fonts.google.com

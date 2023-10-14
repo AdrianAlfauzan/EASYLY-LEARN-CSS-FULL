@@ -1,0 +1,33 @@
+.kotak1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: 1s;
+}
+
+.kotak1:hover {
+    transform: rotate(100deg);
+}
+
+.kotak2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+.container {
+    width: 900px;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+.container:hover .kotak2 {
+    transform: rotate(100deg);
+    margin-left: 400px;
+    background-color: blue;
+}
+
+/* pakai pembungkus lagi agar ketika di hover tidak patah-patah */

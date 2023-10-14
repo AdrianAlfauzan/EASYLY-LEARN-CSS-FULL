@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* odd = untuk ganjil */
+
+
+li:nth-child(odd) a {
+    color: red;
+}
+
+p:nth-child(odd) a {
+    color: red;
+}
+
+/* NOTE : Harus ada pembungkusnya/parentnya */

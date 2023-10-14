@@ -1,0 +1,26 @@
+/* .satu {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+} */
+
+/* auto, jika isi kontennya kebanyakan dia akan memunculkan scroll dengan value "Auto" */
+
+/* .satu {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+} */
+
+/* isi konten yang paling bawah akan hilang jika kita memakai value "Hidden" */
+
+.satu {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+/* scroll --> CSS akan otomatis menambahkan scroll jika kontenya masih cukup. */

@@ -1,0 +1,25 @@
+.container {
+    width:800px;
+    margin: auto;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+img {
+    margin: 10px;
+    display: block;
+}
+
+.img1{
+    border: 2px solid red;
+    float: right;
+}
+
+.img2{
+    border: 2px solid blue;
+    float: right;
+}
+.img3{
+    border: 2px solid rgb(4, 255, 0);
+    float: right;
+}

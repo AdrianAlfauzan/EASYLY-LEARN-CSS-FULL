@@ -1,0 +1,17 @@
+Opacity berfungsi untuk mengatur sebuah transparan pada sebuah elemen.
+value nya 0 dan 1 ;
+jika 0 akan menjadi sangat transparan
+jika 1 akan menjadi tidak transparan
+
+jika ingin 0.5/.5 maka setengahnya akan transparan.
+
+jika ada kotak di dalam kotak, contoh :
+kotak 1 transparan,lalu kotak 2 tidak ingin transparan? ITU TIDAK BISA!.
+karena parentnya/pembungkus awalnya sudah transparan terlebih dahulu
+
+*NOTE 
+ketika sebuah parent/kotak diberi elemen,maka semua elemen di dalamnya
+akan transparan.
+
+opacity bisa dipakai untuk semua elemen ;
+IMG,DIV,DLL

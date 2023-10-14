@@ -1,0 +1,19 @@
+CSS 3 adalah generasi ke-3 dari spesifikasi CSS yang 
+di rekomendasikan oleh W3C.
+
+CSS 3 dibagi menjadi beberapa modul, dan tiap-tiap modulnya 
+menambahkan kemampuan/fitur yang ada di CSS 2.
+
+Why we've use CSS 3?
+1. Membuat website menjadi lebih fleksibel.
+2. Membuat mock-up dengan cepat tanpa bantuan bahasa scripting.
+3. Mengurangi penggunakan gambar = kecepatan load halaman.
+4. Penggunaan selector untuk menghindari penggunaan markup yang boros.
+
+Vendor-prefixes
+Agar semua properti dapat digunakan di semua web browser.
+
+1. -webkit-
+2. -moz-
+3. -ie-
+4. -o-

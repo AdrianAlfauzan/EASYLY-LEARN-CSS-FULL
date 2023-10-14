@@ -1,0 +1,19 @@
+.selector{
+    width : 80%;
+    height: 500px;
+}
+
+80,500,100 dll --> Value 
+%,px,em dll --> Unit
+
+CSS Value :
+1. integer --> bisa menggunakan nilai positif/negatif
+2. number --> pecahan/koma"
+3. percentage 
+4. dimension --> nilai yang di gabungkan dengan satuan
+
+dimension :
+1. length   
+2. angle --> satuannya : deg(derajat), rad(radian), grad(gradian), turn(putaran)
+3. time
+4. resolution

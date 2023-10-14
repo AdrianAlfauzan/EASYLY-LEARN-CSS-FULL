@@ -1,0 +1,23 @@
+CSS RESET :
+Tehnik yang dapat membuat kita mengatur ulang nilai" default dari
+elemen" pada HTML. khususnya Margin dan Padding.
+
+banyak elemen HTML yang secara default sudah memiliki margin dan Padding sendiri.
+contohnya elemen body.
+
+/* selector "*" artinya universal*/
+* {
+    /*reset margin*/
+    margin: 0;
+    /*reset padding*/
+    padding: 0;
+}
+
+/* banyak elemen HTML yang secara default sudah memiliki margin dan Padding sendiri.
+contohnya elemen body. */
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

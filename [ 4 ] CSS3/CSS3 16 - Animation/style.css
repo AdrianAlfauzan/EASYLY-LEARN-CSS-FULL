@@ -1,0 +1,103 @@
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+}
+
+.kotak:hover {
+    animation: animasiKotak 2s ease;
+}
+
+@keyframes animasiKotak {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 50px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.kotak1 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: animasiKotak1 2s ease;
+}
+
+
+@keyframes animasiKotak1 {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 50px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.kotak2 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: animasiKotak1 2s ease 2;
+}
+
+
+@keyframes animasiKotak1 {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 50px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.kotak3 {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    animation-name: animasiKotak1;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 5;
+}
+
+
+@keyframes animasiKotak1 {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 50px;
+    }
+
+    100% {
+        width: 500px;
+        height: 500px;
+    }
+}

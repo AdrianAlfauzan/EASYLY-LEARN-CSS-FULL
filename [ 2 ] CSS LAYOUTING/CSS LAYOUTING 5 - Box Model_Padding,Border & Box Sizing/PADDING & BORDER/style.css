@@ -1,0 +1,10 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    margin: 20px auto;
+    padding: 50px; 
+    border: 5px double black;
+    /* padding: auto; tidak dapat dikasih value/nilai auto */
+    /* padding: -20px; tidak dapat dikasih value/nilai NEGATIF */
+}

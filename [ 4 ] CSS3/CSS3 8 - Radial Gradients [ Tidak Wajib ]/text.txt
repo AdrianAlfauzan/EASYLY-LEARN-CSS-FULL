@@ -1,0 +1,34 @@
+Radial gradient adalah warna gradasi yang memiliki satu 
+titik sumber warna dan warna selanjutnya menjadi titik 
+gradasi yang mengitari titik tersebut 360 derajat.
+
+contoh sintaks penggunaan :
+background-image : radial-gradient(<warna-awal>,<warna-akhir>);
+
+[+] Multiple Color "
+background-image : radial-gradient(<warna-1>,<warna-2>,...,<warna-akhir>);
+
+[+] Color Stop : untuk memberi ukuran pada warna
+background-image : radial-gradient(red 10%, green 10%, blue 80%);
+
+[+] radial gradien memiliki 2 tipe :
+1. tipe ellipse --> akan berbentuk lonjong
+2. tipe circle --> dia akan berbentuk lingkaran
+
+
+[+] Jangkauan --> jarak dari pusat gradient ke sisi terluarnya.
+4 Value jangkauan :
+1. closest-corner --> jarak dari pusat gradient ke SUDUT TERDEKAT elemen.
+2. closest-side --> jarak dari pusat gradient ke SISI TERDEKAT elemen.
+3. farthest-corner --> jarak dari pusat gradient ke SUDUT TERJAUH elemen.
+4. farthest-side --> jarak dari pusat gradient ke SISI TERJAUH elemen.
+
+
+SINTAKS LENGKAP :
+[+] radial-gradient(
+    <tipe> <jangkauan> at <posisi-y> <posisi-x>,
+    <warna-1>,
+    <warna-2>,
+    ...,
+    <warna-akhir>
+    );

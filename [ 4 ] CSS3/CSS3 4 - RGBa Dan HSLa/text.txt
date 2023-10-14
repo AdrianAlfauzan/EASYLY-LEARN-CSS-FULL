@@ -1,0 +1,21 @@
+# RGBa (Red Green Blue Alpha)
+
+Alpha -- > "transparasi"
+jadi kita bisa kasih warna beserta transparasi.
+
+contoh : 
+background-color: rgb(255, 102, 0, 0.8);
+255, 102, 0 --> ini adalah warnanya
+0.8 --> ini adalah transparasinya.
+
+jadi ketika kita parent/kotaknya memakai RGBa,maka elemen" didalamnya 
+tidak akan transparan lagi. 
+
+berbeda ketika kita memakai opacity,elemen" didalamnya akan transparan juga.
+
+RGBa tidak dapat dipakai pada elemen/tag html (img)
+
+# HSLa (Hue Saturation Lightness Alpha)
+H --> roda warna,akan merubah warnanya
+S --> Saturasi
+L --> Nilainya semakin besar akan semakin putih, semakin kecil akan semakin gelap.

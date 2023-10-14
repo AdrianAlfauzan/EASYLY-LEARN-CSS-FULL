@@ -1,0 +1,11 @@
+.boxbesar{
+    width: 80%;
+    height: 500px;
+    background-color: salmon;
+}
+
+.boxbesar .boxkecil{
+    width: 50%;
+    height: 100px;
+    background-color: royalblue;
+}

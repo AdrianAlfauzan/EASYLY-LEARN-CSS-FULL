@@ -1,0 +1,65 @@
+Psuedo Class adalah kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat
+mendefinisikan style pada "Keadaan tertentu" dari elemen tersebut.
+
+Psuedo-class yang berhubungan dengan link :
+1. :link
+    style default sebuah link (a yang memiliki href)
+    contoh : Jadi, Tautan yang belum pernah dikunjungi akan memiliki warna (jika diberi wanra/color)
+
+2. :hover 
+    style ketika kursor mouse berada diatas sebuah link/elemen
+    contoh : 
+    Jadi, ketika kursor di geser ke Tautan, dia akan berubah maupun itu dari
+    segi warna,font dll.
+
+3. :active
+    style ketika sebuah link di-klik (keadaan aktif)
+    contoh : 
+    Jadi, ketika kursor di klik Tautan-nya, dia akan berubah maupun itu dari
+    segi warna,font dll.
+
+4. :visited
+    style ketika sebuah link sudah pernah dikunjungi sebelumnya
+    (menggunakan browser yang sama)
+    contoh :
+    a {
+    font-size: 30px;
+    color: red;
+    }
+
+    .visited:visited {
+        color: green;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    Jika tautan sebelumnya warna merah, 
+    maka ketika tautan sudah di klik, dia akan berwarna hijau
+
+Psuedo-class yang berhubungan dengan posisi elemen (1)
+1. :first-child
+    memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+
+2.  :last-child
+    memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+
+3. nth-child (n)
+    memilih elemen ke-n dari sebuah parent(elemen pembungkusnya).
+
+    n bisa berarti urutan (1), (2),... atau pola (2n), (3n+2), (4n-1) atau
+    ganjil dan genap (even) dan (ood)
+
+    :nth-child(3) --> urutan ke - 3 
+    :nth-child(3n) --> urutan dengan kelipatan ke - 3 
+    :nth-child(3n-2) --> urutan dengan kelipatan ke - 3 tapi mulai dari awal
+    jadi -2 itu di mundurin dari hitungannya. (bisa pakai [+] juga.)
+    even = untuk genap 
+    odd = untuk ganjil 
+
+
+Psuedo-class yang berhubungan dengan posisi elemen (2)
+1. :first-of-type
+    memilih elemen pertama dari sebuah jenis/tipe tag
+
+2. :last-of-type
+    memilih elemen terakhir dari sebuah jenis/tipe tag

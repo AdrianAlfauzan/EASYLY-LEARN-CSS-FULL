@@ -1,0 +1,28 @@
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.dua {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.tiga {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    border: 10px solid green;
+    margin: auto;
+}

@@ -1,0 +1,19 @@
+a {
+    background-color: #ffc0cb;
+    display: block;
+    width: 150px;
+}
+
+.main {
+    width: 600px;
+    background-color: greenyellow;
+}
+
+.main h2 {
+    background-color: red;
+}
+
+.navigasi h2 {
+    background-color: red;
+    display: inline-block;
+}

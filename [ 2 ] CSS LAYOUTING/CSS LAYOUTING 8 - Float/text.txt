@@ -1,0 +1,49 @@
+Float :
+Float merupakan properti pada CSS untuk mengatur posisi sebuah elemen.
+Sebuah elemen dapat dipaksa untuk berada di sebelah kiri atau 
+kanan dari parent/pembungkusnya dengan menggunakan properti ini.
+
+Float memiliki 3 value :
+1. none
+2. left
+3. right
+
+contoh :
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.satu {
+    background-color: salmon;
+}
+
+.dua {
+    background-color: lightgreen;
+    float: left;
+    /* kotak yang berwarna biru akan hilang,sebetulnya kota yang biru tidak hilang
+    tapi ada di belakang warna hijau. ketika kita kasih properti float, kota yang biru dibawahnya ini
+    kotak hijau itu tidak ada. karena si kotak hijau ini sudah keluar dari flow normalnya (normal flow)*/
+}
+
+.tiga {
+    background-color: skyblue;
+}
+
+Question : Kapan kita menggunakan float ini?
+yang bisa dilakukan menggunakan properti float
+1. text wrapping : membuat teks mengelilingi gambar / elemen lain.
+2. image gallery : membuat serangkaian gambar menjadi galeri
+3. multi-column layout : membuat halaman memiliki beberapa kolom
+4. dan masih banyak lagi
+
+PERLU DI INGAT!!! : 
+SESUAI DENGAN LEBAR CONTAINERNYA/PEMBUNGKUSNYA/KOTAKNYA
+TAPI KALIAN BISA AKALIN DENGAN "BOX-SIZING:BORDER-BOX;"
+
+*out of topic :
+ada sesuatu yang disebut normal flow dan out-of flow. kedua ini adalah perilaku dari 
+elemen" ketika kita kasih CSS. yang sudah kita buat sampai saat ini adalah normal flow,seperti
+yang sudah kita gunakan di box-model.
+

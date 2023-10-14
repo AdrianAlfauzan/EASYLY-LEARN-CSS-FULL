@@ -1,0 +1,9 @@
+Cara menghentikan / membersihkan float
+1. Menggunakan properti overflow
+2. Menggunakan <div> kosong
+3. Menggunakan teknik micro clearfix
+
+Clear : berfungsi menghentikan / membersihkan float
+1. left
+2. right
+3. both

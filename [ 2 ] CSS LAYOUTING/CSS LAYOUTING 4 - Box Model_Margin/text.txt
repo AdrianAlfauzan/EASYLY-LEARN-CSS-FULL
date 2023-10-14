@@ -1,0 +1,92 @@
+Margin :
+
+- Overlapping margin : ini ketika kita menggabungkan 2 buah margin yaitu
+kiri dan kanan, atau atas dan bawah.
+
+contoh : 
+div 1 memiliki margin-bottom 150px
+div 2 memiliki margin-top 50px
+harusnya bertambah dong jadi 200px? tetapi itu tidak akan terjadi!
+why? karena margin-top memiliki nilai kecil di bandingkan margin-bottom untuk menggeser.
+
+TAPI PERLU DI INGAT : INI KHUSUS VERTIKAL ATAU DARI ATAS KEBAWAH ATAU BAWAH KE ATAS
+SEDANGKAN UNTK HORIZONTAL ATAU KESAMPING TIDAK AKAN BERPENGARUH NILAI PX KECIL ATAU BESAR.
+
+KESIMPULAN :
+jadi, yang vertikal(dari atas ke bawah/bawah ke atas) 
+itu, margin yang dipilih adalah margin dengan px yang paling besar.
+
+sedangkan yang VERTIKAL :
+Marginnya akan di tambah/dijumlahkan.
+
+itu semua berguna untuk display : inline atau inline-block
+
+CSS nya :
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: 250px;
+}
+
+- Negatif Margin : jika di beri minus, maka kotaknya akan berlawanan arah
+dia akan naik ke atas.
+contoh : 
+div satu --> margin-bottom : 30px
+div dua -->  margin-top    : -150px
+
+tetapi, jika ada pembungkus dibawahnya. maka pembungkus dibawah nya akan ikut ke atas
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin-bottom: 30px;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-top: -150px;
+}
+
+- Margin Auto : keduanya harus bervalue Auto
+contoh :
+div satu --> margin-right : Auto
+div dua -->  margin-left    : Auto
+
+- Shorthand : memberi margin kanan,kiri,atas dan bawah.
+
+contoh 1 (1 value):
+div satu --> margin : 50px
+maka kiri,kanan,atas dan bawah akan berjarak 50px
+
+contoh 2 (2 value):
+div dua --> margin : 50px 100px
+value pertama --> 50px untuk atas dan bawah
+value kedua --> 100px untuk kiri dan kanan
+
+contoh 3 (3 value):
+div dua --> margin : 30px 50px 40px
+value pertama --> 30px untuk atas
+value kedua --> 50px untuk kiri dan kanan
+value ketiga --> 40px untuk bawah
+
+contoh 4 (4 value):
+div dua --> margin : 10px 20px 30px 40px
+value pertama --> 10px untuk atas
+value kedua --> 20px untuk kanan
+value ketiga --> 30px untuk bawah
+value keempat --> 40px untuk kiri
+*NOTE : dibacanya searah jarum jam.

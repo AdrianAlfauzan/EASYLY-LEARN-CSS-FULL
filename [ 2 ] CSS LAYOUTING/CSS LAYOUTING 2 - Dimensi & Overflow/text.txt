@@ -1,0 +1,20 @@
+Dimensi dan Overflow
+* Dimensi memiliki :
+Satuan unit Width & Height
+1. Px --> nilainya absolute / nilainya pasti
+2. % --> nilainya relative, relative terhadap elemen parentnya atau pembungkusnya
+3. in --> inci 
+4. cm --> centimeter
+5. mm --> milimeter
+6. pt --> point
+7. pc --> pica
+
+*Overflow memiliki :
+1. Visible itu adalah value default-nya, jadi meskipun kalian tidak kasih value Visible.
+elemen tersebut akan tetap Visible. jika ada alemen yang keluar dari parentnya,maka dia akan dikeluarkan isi kontennya.
+
+2. auto --> CSS akan otomatis menambahkan scroll jika kontenya sudah tidak cukup lagi.
+
+3. Hidden --> Kontennya akan disembunyikan
+
+4. scroll --> CSS akan otomatis menambahkan scroll jika kontenya masih cukup.

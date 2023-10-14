@@ -1,0 +1,35 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    /* margin: 50px; maka kiri,kanan,atas dan bawah akan berjarak 50px */
+
+    /* margin: 50px 100px; 
+    value pertama --> 50px untuk atas dan bawah
+    value kedua --> 100px untuk kiri dan kanan */
+
+    /* margin: 30px 50px 40px;
+    value pertama --> 30px untuk atas
+    value kedua --> 50px untuk kiri dan kanan
+    value ketiga --> 40px untuk bawah */
+
+    margin: 10px 20px 30px 40px;
+    /* value pertama --> 10px untuk atas
+    value kedua --> 20px untuk kanan
+    value ketiga --> 30px untuk bawah
+    value keempat --> 40px untuk kiri
+    *NOTE : dibacanya searah jarum jam. */
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+}

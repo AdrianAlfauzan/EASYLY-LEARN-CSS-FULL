@@ -1,0 +1,65 @@
+CSS DISPLAY 
+
+tag pada HTML digunakan untuk memberikan "maksud" / "arti" 
+sebuah konten (p untuk paragraf,h1 untuk heading utama dll.)
+
+Tag <div> dan <span> tidak memiliki "arti" apapun keduanya digunakan untuk 
+mengelompokkan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut.
+
+
+Questions :
+Apa hubungannya dengan DISPLAY?
+
+semua elemen HTML memiliki properti display DEFAULT
+
+<div></div> defaultnya adalah ---> div{
+                        display : block;
+                    }
+
+<span></span> defaultnya adalah ---> div{
+                        display : inline;
+                    }
+
+"setiap tag pada HTML berada di dalam sebuah KOTAK.
+properti DISPLAY pada CSS mengatur perilaku dari kota tersebut." 
+
+"setiap tag pada HTML memiliki nilai DEFAULT untuk properti DISPLAY.
+tetapi kita juga dapat mengubah perilaku dari tag tersebutdengan
+mengganti value-nya."
+
+Value pada DISPLAY ada 4 :
+1. inline
+    - Elemen HTML yang secara default tidak menambahkan baris baru ketika dibuat.
+    - Lebar dan tinggi elemennya sebesar konten yang ada di dalamnya.
+    - kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+    - MARGIN DAN PADDING HANYA MEMPENGARUHI ELEMEN SECARA
+      HORIZONTAL DAN TIDAK VERTIKAL.
+
+    Elemen" HTML atau tag" HTML yang memiliki default displaynya INLINE :
+    1. b            5. a        9. button   13. textarea
+    2. strong       6. span     10. input   KECUALI : tag <img></img>
+    3. i            7. sub      11. label
+    4. em           8. sup      12. select
+
+2. inline-block
+    - Tidak ada elemen yang secara default memiliki properti
+      display : inline-block
+    - Kita harus ubah secara manual properti tersebut
+    - perilaku dasarnya sama dengan elemen inline
+    - PERBEDANNYA, elemen inline-block dapat kita atur tinggi dan lebarnya
+
+3. block
+    - Elemen HTML yang secara default menambahkan baris baru ketika dibuat
+    - jika tidak diatur lebarnya, maka lebar default dari elemen block
+      akan memenuhi lebar dari browser / parent-nya
+    - Kita dapat mengatur tinggi dan lebar dari elemen block
+    - Di dalam elemen block, kita dapat menyimpan tag dengan 
+      elemen inline, inline-lock atau bahkan elemen block lagi.
+    contoh" Elemen block :
+    1. h1 - h6    5. li 
+    2. p          6. form
+    3. ol         7. hr
+    4. ul         8. div
+
+4. none
+    - Digunakan untuk menghilangkan sebuah elemen

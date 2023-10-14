@@ -1,0 +1,20 @@
+Border Radius adalah properti CSS 3 yang fungsinya
+untuk membuat sebuah ujung" kotaknya menjadi tumpul.
+
+value :
+1. px
+2. %
+
+lalu ada juga :
+1. border-top-left-radius
+2. border-top-right-radius
+3. border-bottom-left-radius
+4. border-bottom-right-radius
+
+ada lagi dalam satu komponen, contoh :
+border-radius: 50% 25 50% 25;
+dimulai dari,
+50% = atas kiri
+25% = atas kanan
+50% = bawah kanan
+25% = bawah kiri

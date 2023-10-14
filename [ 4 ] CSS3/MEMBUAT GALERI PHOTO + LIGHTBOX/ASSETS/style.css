@@ -1,0 +1,92 @@
+body {
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 50px auto;
+    text-shadow: 4px 0px 10px yellow;
+}
+
+.container {
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid rgba(32, 45, 44, 0.708);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(249, 231, 28, 0.708);
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+}
+
+.gallery li {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    border: 5px solid gray;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    transition: 1s;
+    transform: scale(1) rotate(0);
+}
+
+.gallery li:hover {
+    transform: scale(1.1) rotate(360deg);
+}
+
+.gallery li img {
+    border-radius: 50%;
+}
+
+.gallery li span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(200, 200, 200, .5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(11, 22, 232, 0.588);
+    text-shadow: 1px 0px 1px blue;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: .3s;
+}
+
+/* .gallery li a:hover span {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+} */
+
+.clear {
+    clear: both;
+}
+
+/* Overlay */
+div .overlay {
+    position: fixed;
+    background-color: black;
+    opacity: .8;
+    top: 0;
+    left: 0;
+    z-index: 6;
+}
+
+div .overlay:target {
+    width: 500px;
+    height: 500px;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}

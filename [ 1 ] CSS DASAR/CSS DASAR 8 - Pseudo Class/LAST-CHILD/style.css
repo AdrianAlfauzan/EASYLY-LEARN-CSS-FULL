@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/* jadi : CSS tolong carikan saya a yang ada didalam li, yang merupakan anak terakhir (last-child). begitupun sebaliknya dengan (first-child)*/
+/* ul = orang tua / parent */
+/* li = anaknya */
+/* a didalam li = a adalah anak dari li */
+li:last-child a {
+    color: green;
+}
+
+p:last-child a {
+    color: red;
+}
+
+/* NOTE : Harus ada pembungkusnya/parentnya */

@@ -1,0 +1,43 @@
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 50px auto;
+    box-shadow: 0px 0px 80px 10px red;
+    transition: 0.3s;
+}
+
+.satu:hover {
+    box-shadow: 0 0px 10px 10px red;
+    transition: 1s;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.dua {
+    background-color: greenyellow;
+    position: absolute;
+    box-shadow: 0 0 5px 10px blue;
+    transition: 0.5s;
+}
+
+.tiga {
+    background-color: brown;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100px 0;
+}
+
+.dua:active {
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    position: absolute;
+    z-index: 99;
+    margin-top: 100px;
+}

@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.satu {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+}
+
+.dua {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+}
+
+/* persen akan mengikuti pembungkus awalnya,
+jika kelebihan maka dia akan keluar dari pembungkusnya */

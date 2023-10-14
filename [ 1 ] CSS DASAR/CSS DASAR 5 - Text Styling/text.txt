@@ -1,0 +1,25 @@
+1. [ ctrl + / ] untuk membuat komentar pada css, atau dapat menggunakan (/*...*/)
+
+Text : 
+1. color : memberi warna pada tulisan
+    Terdapat :
+    1. nama warna : red,lightgreen,royalblue
+    2. hexadecimal : #ff0000, #20b2aa, #4169e1
+    3. rgb : rgb(255,0,0), rgb(32,178,170), rgb(65,105,225)
+
+2. text-align : mengatur format paragraf / teks
+    Terdapat : left,right,center dan justify
+
+3. text-indent : memberi indentasi pada paragraf / teks
+    Terdapat : px dan %
+
+4. text-decoration : mengatur dekorasi pada teks / tanda garis 
+    Terdapat : none,underline,overline dan line-through
+
+5. text-transform mengubah jenis huruf besar,kecil / kapital 
+    Terdapat :none,lowercase,uppercase dan capitalize
+
+6. letter-spacing : mengatur spasi antar huruf
+    Terdapat : normal dan px
+
+7. word-spacing : mengatur spasi antar kata

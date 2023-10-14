@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(0, 0, 0, 0.296);
+    border: 15px solid black;
+    position: relative;
+}
+
+
+.container1,
+.container2,
+.container3 {
+    margin: auto;
+}
+
+.container1 {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    border: 10px solid rgb(128, 0, 0);
+    background-color: lightslategray;
+}
+
+.container2 {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    border: 10px solid rgb(41, 0, 128);
+    background-color: burlywood;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container3 {
+    position: relative;
+    width: 600px;
+    height: 650px;
+    border: 10px solid green;
+    background-color: blueviolet;
+}
+
+.satu,
+.dua,
+.tiga {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.satu {
+    background-color: lightgreen;
+}
+
+.dua {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tiga {
+    background-color: aqua;
+}

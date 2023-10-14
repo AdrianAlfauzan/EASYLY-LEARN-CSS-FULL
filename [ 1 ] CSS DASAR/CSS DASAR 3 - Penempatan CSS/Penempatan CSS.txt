@@ -1,0 +1,8 @@
+1. Embed :
+<style></style>
+
+2. inline :
+<p style= "color:lightblue;">...</p>
+
+3. Eksternal :
+<link rel="stylesheet" href="style.css"

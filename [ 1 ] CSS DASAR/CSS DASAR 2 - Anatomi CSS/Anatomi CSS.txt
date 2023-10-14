@@ -1,0 +1,5 @@
+ #selector { property : value;} 
+ contoh : h1 {color   : blue;} 
+
+ referensi --> https://developer.mozilla.org/en-US/docs/Web/CSS/Reference 
+ referensi --> https://css-tricks.com/almanac

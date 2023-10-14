@@ -1,0 +1,17 @@
+Font :
+1. font-family --> mengatur jenis font yang akan digunakan.
+
+2. font-size --> mengatur ukuran font 
+Terdapat (px, % dan em)
+
+3. font-weight --> mengatur ketebalan font
+Terdapat (lighter,normal,100-900,bold dan bolder)
+
+4. font-variant --> mengubah font menjadi small caps
+ 
+5. font-style --> mengubah font menjadi bercetak miring
+Terdapat (normal, italic dan oblique)
+italix dan oblique akan mengubah font menjadi miring
+
+6. line-height --> mengatur spasi antar baris
+Terdapat (normal,px dan em)

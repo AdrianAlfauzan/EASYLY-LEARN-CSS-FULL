@@ -1,0 +1,30 @@
+Specificity :
+setiap deklarasi CSS (selector) yang memiliki BERAT yang berbeda.
+Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih
+oleh selector.
+
+Cara menghitung nilai Specificity :
+Inline   id    class   element 
+   0     0       0        0
+
+1. Inline :
+    Inline   id     class     element 
+       1      0       0          0      score : 1000
+
+2. #p1 : 
+    Inline   id     class     element 
+       0      1       0          0      score : 100
+
+3. class :
+    Inline   id     class     element 
+       0      0       1          0      score : 10
+
+4. p :
+    Inline   id     class     element 
+       0      0       0          1      score : 1
+
+ini adalah score dari setiap selector.
+dengan begini kalian dapat menghitung score dari setiap elemen,
+semisal dari beberapa selector ada element,class,id. kalian hanya perlu
+menghitung score nya saja.
+

@@ -1,0 +1,75 @@
+body {
+    font: 16px/20px arial, sans-serif;
+    /* 16px = ukuran font standardnya */
+    /* 20px = line height nya; */
+    /* hurufnya = arial dan sans-serif*/
+    background-color: #eaeaae;
+    color: #333;
+    background-image: url(images/naruto.jpeg);
+    background-size: cover;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(68, 214, 255);
+}
+
+.header {
+    padding: 20px;
+}
+
+.judul {
+    font-size: 40px;
+}
+
+ul {
+    margin-left: 400px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    font-size: 10px;
+    color: rgb(251, 255, 38);
+}
+
+.hero {
+    height: 500px;
+    background-image: url(images/marvel.jpeg);
+    background-size: cover;
+    background-position: 0 -30px;
+    border: 3px solid white;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .penulis {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.penulis a:hover {
+    font-size: 20px;
+    color: rgb(199, 48, 199);
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.footer {
+    padding-bottom: 10px;
+}
+
+.copy {
+    text-align: center;
+    font-family: sans-serif;
+}

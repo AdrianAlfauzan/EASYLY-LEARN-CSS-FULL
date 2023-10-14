@@ -1,0 +1,34 @@
+CSS POSITION
+
+Value : 
+1. STATIC :
+    *NOTE
+    jika kita tidak memberikan properti position pada sebuah elemen
+    maka, default dari properti position nya adalah STATIC.
+    Jadi, jika kita tidak kasih apa" maka position nya STATIC
+
+- static adalah nilai default dari tiap-tiap elemen ketika 
+tidak diberi properti position.
+- Menggunakan position selain static (Non-Static), akan membaut sebuah elemen
+menjadi seolah-olah berbeda dimensi dari elemen lainnya.
+- Elemen yang diberi position selain static (Non-Static) dapat menggunakan properti
+top,left,bottom dan right untuk mengatur posisinya. 
+
+
+
+2. Relative :
+jika kita kasih properti position dengan value Relative.
+sebuah kotak akan maju ke depan dan kita bisa akses dengan menggunakan
+top,left,bottom dan right.
+
+- Ketika kita menggerakkan elemen dengan posisi Relative 
+(menggunakan properti top,left,right dan bottom), ruang yang ditempati
+oleh elemen tersebut masih ada.
+- ketika kita menggerakkan elemen dengan posisi Relative, elemen akan
+bergerak Relatif terhadap posisi semulanya.
+- jika kita memberi properti top : 0; dan left : 0;
+maka elemen tidak berubah posisinya.
+
+3. absolute
+4. fixed
+

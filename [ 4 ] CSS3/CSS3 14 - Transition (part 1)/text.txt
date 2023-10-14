@@ -1,0 +1,52 @@
+Transiton adalah properti yang memungkinkan kita dapat mengubah nilai 
+dari properti HTML SECARA HALUS.
+
+Didalam CSS ada 2 properti yang fungsinya mengubah nilai dari properti
+HTML SECARA HALUS. yaitu :
+1. Transiton --> hanya bergerak 1x
+2. animation --> bergerak beberapa kali. dan memiliki beberapa keyframe
+sebetulnya kedua ini mirip, hanya saja yang membedakan adalah
+keadaan awal dan keadaan akhirnya. 
+
+penulisan Transiton :
+[properti] <durasi> [fungsi] [delay];
+contoh :
+transition: 1s;
+
+dan juga bisa dengan
+transition: all 1s;
+all = properti
+1s = durasi
+
+value properti:
+1. all
+2. <nama properti>
+3. none
+
+<durasi> --> ini wajib diisi!
+valuenya ada s(second)/ms(mili second)
+
+Transiton selalu di letakkan di keadaan awal.   
+
+Ini adalah properti-properti yang DAPAT kita ubah secara halus.
+1. background-color
+2. background-position
+3. background-size
+4. border
+5. color
+6. filter
+7. font-size
+8. line-height
+9. top,left,bottom dan right
+10. margin dan padding
+11. width dan height
+12. opacity
+13. transform
+14. word-spacing
+15. letter-spacing
+
+
+Ini adalah properti-properti yang TIDAK DAPAT kita ubah secara halus.
+1. font-family
+2. display
+3. position

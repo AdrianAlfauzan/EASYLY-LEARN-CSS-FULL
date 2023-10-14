@@ -1,0 +1,54 @@
+.kotak {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: 1s;
+}
+
+.kotak:hover {
+    transform: rotate(100deg);
+}
+
+.kotak1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s ease;
+}
+
+.container1 {
+    width: 900px;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+.container1:hover .kotak1 {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: blue;
+}
+
+.kotak2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: all 1s ease-in;
+}
+
+.container2 {
+    margin-top: 50px;
+    width: 900px;
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+.container2:hover .kotak2 {
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: blue;
+}
+
+/* pakai pembungkus lagi agar ketika di hover tidak patah-patah */

@@ -1,0 +1,19 @@
+Vendor Prefix berguna agar sintaks CSS3 yang kita buat compatible 
+di semua borwser.
+atau lebih detailnya, SINTAKS KHUSUS YANG HARUS DITAMBAHKAN UNTUK 
+BEBERAPA PROPERTI CSS3.
+
+Sintaks nya spesifik untuk tiap browser/vendor.
+karena,tiap-tiap browser memiliki karakteristik yang berbeda-beda.
+
+Prefix adalah awalan. sedangkan,
+vendor adalah browser yang bersangkutan.
+
+cara menambahkan Vendor Prefix :
+1. -webkit-<properti-css3> For (chrome,safari,opera versi terbaru)
+2. -moz-<properti-css3> For (Firefox)
+3. -ms-<properti-css3> For (Internet Explorer)
+4. -o-<properti-css3> For (Opera versi terdahulu)
+
+kenapa harus DITAMBAHKAN???
+KARENA TIDAK SEMUA BROWSER SUPPORT CSS3!

@@ -1,0 +1,62 @@
+Konsep dasar Box Model :
+1. Setiap elemen di halaman berada di dalam sebuah box (kotak).
+2. Kita bisa mengatur ukuran dan posisi kota tersebut. (inline-block dan block)
+3. kita bisa memberi warna / gambar sebagai background kotak tersebut.
+
+CSS box model mendefinisikan "Kotak" yang dihasilkan oleh sebuah elemen, 
+Lalu menampilkannya sesuai dengan format visualnya.
+
+CSS box model terdiri dari 4 komponen :
+1. Margin 
+2. Border
+3. Padding
+4. Content, entah itu tulisan,gambar,link dll
+
+-----------------------------------------------------------------------------------------
+-                                   Margin                                              -  
+-  ---------------------------------------------------------------------                -                                            
+-  -                                Border                                              -
+-  -  ------------------------------------------------------------------                -                                          
+-  -  -                             Padding                                             -
+-  -  -   --------------------------------------------------------------                -                                      
+-  -  -   -                         Content                                             -
+-  -  -   -   ----------------------------------------------------------                -                                     
+-  -  -   -   -                                                        -                -
+-  -  -   -   -                                                        -                -
+-  -  -   -   -                                                        -                -
+-  -  -   -   ----------------------------------------------------------                -
+-  -  -   -                         Content                                             -
+-  -  -   --------------------------------------------------------------                -
+-  -  -                             Padding                                             -
+-  -  ------------------------------------------------------------------                -
+-  -                                Border                                              -
+-  ---------------------------------------------------------------------                -
+-                                   Margin                                              -
+-----------------------------------------------------------------------------------------
+
+Penjelasan :
+1. Margin : area transparan disekitar kotak (di luar border)
+2. Padding : area transparan di dalam kota (antara content dan border)
+3. border : Batas di sekeliling content dan Padding
+4. content : konten sebenarnya di dalam box, bisa berupa teks atau gambar
+
+Properti untuk Margin :
+1. margin-top           
+2. margin-right
+3. margin-bottom
+4. margin-left
+5. margin
+
+Properti untuk Padding :
+1. padding-top           
+2. padding-right
+3. padding-bottom
+4. padding-left
+5. padding
+
+Properti untuk Border :
+1. border-top           
+2. border-right
+3. border-bottom
+4. border-left
+5. border

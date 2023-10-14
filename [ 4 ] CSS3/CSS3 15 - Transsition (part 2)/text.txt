@@ -1,0 +1,53 @@
+Fungsi transisi / timing function
+
+value [timing function] :
+1. ease [nilai default jika tidak di beri apa-apa]
+   - Ease adalah fungsi pengubahan yang paling sederhana dan umum digunakan.
+   - Dalam konteks animasi, ini berarti pergerakan elemen dimulai lambat, 
+     berakselerasi selama pertengahan perjalanan, 
+     dan kemudian melambat lagi saat mendekati tujuan akhir.
+   - Dalam fungsi waktu (waktu vs. perubahan posisi), 
+     ini akan terlihat seperti kurva sigmoidal yang lebih datar di awal dan akhir animasi, 
+     dengan bagian tengah yang lebih curam.
+
+2. ease-in --> perputarannya akan lebih cepat dan lambat di akhir
+   - Ease-in adalah jenis fungsi pengubahan yang berfokus pada percepatan di awal animasi.
+   - Ini berarti elemen mulai bergerak pelan, 
+     kemudian semakin cepat menjauh dari titik awal seiring berjalannya waktu.
+   - Kurva fungsi ini terlihat sangat curam di awal animasi, 
+     lalu melandai seiring waktu berjalan.
+
+3. ease-out
+   - Ease-out adalah sebaliknya dari ease-in. Ini berfokus pada perlambatan di akhir animasi.
+   - Animasi dimulai dengan cepat, tetapi kemudian perlambatan terjadi saat elemen mendekati tujuan akhirnya.
+   - Kurva fungsi ini terlihat sangat curam di akhir animasi, lalu melandai seiring waktu berjalan.
+
+4. ease-in-out
+   - Ease-in-out adalah kombinasi dari ease-in dan ease-out.
+   - Dalam animasi, elemen dimulai dan berakhir dengan kecepatan yang lebih lambat, sementara bagian tengah animasi (pergerakan elemen dari awal ke akhir) memiliki percepatan yang lebih tinggi.
+   - Ini memberikan tampilan animasi yang lebih alami dan halus, dengan kurva fungsi yang mulus dari awal hingga akhir.
+
+Pemilihan jenis fungsi pengubahan ini tergantung pada efek animasi yang ingin dicapai dan kesan visual yang diinginkan. 
+Misalnya, ease-in-out sering digunakan untuk animasi perpindahan elemen karena memberikan pergerakan yang terasa lebih alami, 
+sementara ease-out bisa cocok untuk elemen yang perlu menonjolkan akhir animasinya.
+
+5. linear
+6. cubic-bezier (w,x,y,z)
+
+penulisan Transiton :
+[properti] <durasi> [fungsi] [delay];
+
+
+Ketiga istilah "ease," "ease-in," "ease-in-out," dan "ease-out" adalah jenis-jenis fungsi pengubahan (easing function) yang sering digunakan dalam desain grafis dan animasi, khususnya dalam konteks pergerakan elemen-elemen seperti animasi transisi atau perpindahan posisi.
+
+1. **Ease (Default)**:
+   
+
+2. **Ease-In**:
+   
+
+3. **Ease-Out**:
+   
+
+4. **Ease-In-Out**:
+   

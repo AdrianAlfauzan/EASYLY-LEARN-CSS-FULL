@@ -1,0 +1,7 @@
+Z-index : digunakan untuk mengatur tumpukan dari elemen yang
+non-static (relative,absolute dan fixed).
+
+z-index jika nilainya lebih besar,dia akan paling depan si sebuah kotaknya.
+contoh : 
+z-index : 9999; vs z-index: -9999;
+maka,z-index yang : 9999; akan lebih kedepan si kotaknya/lebih maju.

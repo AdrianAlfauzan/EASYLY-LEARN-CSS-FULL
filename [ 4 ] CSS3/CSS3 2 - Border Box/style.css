@@ -1,0 +1,72 @@
+.kotak1 {
+    width: 400px;
+    height: 200px;
+    background-color: salmon;
+    border-radius: 350px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.kotak2 {
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+}
+
+.kotak3 {
+    width: 400px;
+    height: 200px;
+    background-color: salmon;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.kotak4 {
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: salmon;
+    border-radius: 50% 0 50% 0;
+    text-align: center;
+    line-height: 200px;
+}
+
+.kotak5 {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url(images/marvel.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px 0;
+    background-color: salmon;
+    border-radius: 200px;
+}
+
+.img {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    border-radius: 100px;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: -400px;
+}
+.img img{
+    width: 180px;
+}
+
+.image{
+    background-image: url(images/naruto.jpeg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 200px;
+}

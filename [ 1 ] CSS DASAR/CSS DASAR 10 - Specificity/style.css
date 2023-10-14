@@ -1,0 +1,28 @@
+/* ------------------------SELECTOR--------------------------------- */
+/* p {
+    color: red
+} */
+
+/* manakah yang akan berubah warnanya ? */
+/* Jawabannya : warna biru */
+/* alasannya : karena p yang ke 2 akan menimpa properti yang pertama. */
+/* intinya yang properti terakhir yang akan merubah warnanya */
+
+/* p {
+    color: blue
+} */
+/* ------------------------SELECTOR--------------------------------- */
+
+/* #p1 {
+    color: red;
+} */
+
+/* manakah yang akan berubah warnanya ? */
+/* Jawabannya : warna merah */
+/* alasannya : karena #p1 lebih spesifik dari pada p */
+
+/* .p1 {
+    color: blue;
+} */
+
+/* penjelasan inti ada di folder text.txt */

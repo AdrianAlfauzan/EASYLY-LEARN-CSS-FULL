@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    height: 2000px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.blur {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.brightness {
+    filter: brightness(200%);
+}
+
+.contrast {
+    filter: contrast(350%);
+}
+
+.saturate{
+    filter: saturate(300%);
+}

@@ -1,0 +1,17 @@
+Filter adalah properti CSS3 yang digunakan untuk memberikan efek visual
+pada (gambar, background atau border)
+
+properti nya :
+filter : <tipe-filter>;
+
+tipe filter ada beberapa : 
+1. blur
+2. brightness
+3. contrast
+4. saturate
+5. grayscale
+6. sepia
+7. hue-rotate
+8. invert
+9. opacity
+10. drop-sahdow

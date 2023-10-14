@@ -1,0 +1,26 @@
+div {
+    width: 600px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    /* ini akan berguna mengatur agar nilai nya tetap dari sebuah kotak. */
+}
+
+.satu {
+    width: 570px;
+    /* cara menghitungnya */
+    /* 600px - (10px*2) - (5px*2) = 570px */
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid red;
+}
+
+.dua {
+    width: 520px;
+    /* cara menghitungnya */
+    /* 600px - (30px*2) - (10px*2) = 520px */
+    background-color: greenyellow;
+    padding: 30px;
+    border: 10px dashed orange;
+}
+
+/* jika tidak ingi pusing menghitung,pakai properti (box-sizing) */

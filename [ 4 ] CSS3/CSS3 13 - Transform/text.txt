@@ -1,0 +1,92 @@
+Transform adalah properti CSS3 yang memungkinkan kita
+yang dapat memanipulasi format visual dari elemen HTML. 
+
+Transform ini ada 2 jenis :
+1. 2D (2 Dimensi)
+2. 3D (3 Dimensi)
+
+cara penggunaannya :
+transform : <fungsi>;
+
+
+fungsinya ada 4 :
+[X] = Horizontal
+[Y] = Vertikal
+dapat menggunakan minus (-) di angkanya
+
+1. scale -- > memperbesar / memperkecil
+    -scale(angka)
+    -scaleX(angka)
+    -scaleY(angka)
+
+contoh caranya : 
+[1] transform: scale(2);
+    ini maksudnya, perbesar ukuran kotaknya 2x lipat
+
+[2] transform: scale(1.5,2);
+    1.5 --> sumbu X (Horizontal)
+    2 --> sumbu Y (Vertikal)
+
+[3] transform: scaleX(1.5) scaleY(2);
+    1.5 --> sumbu X (Horizontal)
+    2 --> sumbu Y (Vertikal)
+
+
+2. rotate -- > Memutar
+    -rotate(deg)
+    -rotateX(deg)
+    -rotateY(deg)
+
+rotate dan rotateX --> BERBEDA.
+
+
+contoh caranya :
+[1] transform: rotate(45deg);
+    ini maksudnya diputar 45 derajat searah jarum jam.
+
+[2] transform: rotateX(90deg);
+    sumbunya akan berada di tengah secara Horizontal.
+    seolah-olah seperti memutar kartu.
+
+    Jika di ubah menjadi 
+    transform: rotateX(180deg);
+    maka dia akan berputar seperti membalikkan kartu.
+
+
+
+3. skew -- > membuat condong/miring
+    -skew(deg)
+    -skewX(deg)
+    -skewY(deg)
+
+skew dan skewX --> SAMA SAJA.
+
+contoh caranya :
+[1] transform: skew(30deg);
+    jadi dia akan miring 30 derajat secara Horizontal
+
+[2] transform: skewX(30deg);
+    jadi dia akan miring 30 derajat secara Horizontal
+
+[3] transform: skewY(30deg);
+    dia akan condong ke arah vertikal.
+
+4. translate (translasi) -- > Mengubah posisi
+    -translate(px)
+    -translateX(px)
+    -translateY(px)
+
+contoh caranya :
+[1] transform: translate(50px);
+    dia akan bergeser ke kanan.
+
+[2] transform: translate(50px, 100px);
+    dia akan bergeser ke kanan tapi ke arah bawah. karena,
+    50px = Horizontal
+    100px = Vertikal
+
+
+
+
+*NOTE kemungkinan fungsi transform ini masih eksperimental.
+jadi kita butuh Vendor Prefix.

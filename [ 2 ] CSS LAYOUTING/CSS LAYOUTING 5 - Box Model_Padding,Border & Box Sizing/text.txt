@@ -1,0 +1,46 @@
+#PADDING
+
+Padding sama hal nya seperti margin,akan tetapi
+Padding tidak dapat dikasih value/nilai NEGATIF.
+LALU, Padding tidak dapat dikasih value/nilai AUTO.
+
+contoh :
+padding : auto;
+padding : -20px;
+
+Padding itu mempengaruhi ukuran dari box yang kalian buat.
+atau padding dapat menambah ukuran elemennya.
+
+contoh :
+width : 300px;
+height : 300px;
+padding : 50px;
+maka, masing" dari width dan height akan bertambah 50px dari padding tersebut.
+
+width : 300px; --> kiri dan kanan 300px 
+padding : 50px; --> kiri dan kanan 50px
+hasilnya : 300 + 100px = 400px, begitupun sebaliknya dengan height.
+
+#BORDER
+border memiliki 3 value/nilai yang bisa kalian tulis.
+border : width style color;
+
+contoh : 
+boder: 5px solid red
+ketebalan : 5px
+stylenya : solid
+warna border : red
+
+beberapa style di border ada 4 :
+1. solid --> untuk bergaris
+2. dotted --> untuk titik-titik
+3. dashed --> agar bordernya garis putus-putus
+4. double --> coba sendiri ^_^,sulit untuk dijelaskan
+
+BORDER sama hal nya seperti PADDING,jadi pada saat kalian memberikan border
+walaupun ketebalannya hanya 1px, itu artinya kalian menambahkan ukuran dari elemennya
+sebesar 1px.
+
+# BOX-SIZING 
+ini sangat berguna untuk mengatur dimensi dari kota 
+agar tetap sama ukuran div nya atau sebuah kotak.
